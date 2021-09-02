@@ -27,7 +27,7 @@ SETLOCAL
 SET PROJECT_DIR=%cd%
 SET PROJECT_NAME=python-generate-infographic
 SET SUPPORT_LIBRARY = generate_infographic
-SET ENV_NAME=generate-infogrpahic
+SET ENV_NAME=generate-infographic
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :: COMMANDS                                                                     :
@@ -57,7 +57,7 @@ GOTO %1
     ENDLOCAL & (
 
         :: Create new environment from environment file
-        CALL conda env create -f environment_dev.yml
+        CALL conda env create -f environment.yml
 
         :: Install the local package in development (experimental) mode
         CALL python -m pip install -e .

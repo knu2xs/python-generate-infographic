@@ -5,25 +5,8 @@ channels:
   - conda-forge
 
 dependencies:
-  - esri::arcgis
-  - dask
-  - fiona
-  - h3-py
+  - arcgis
   - jupyterlab
-  - munch
   - nodejs
-  - pip
-  - esri::pyarrow
-  - python=3.7
-  - python-dotenv
-  - pyyaml
-  - scipy
-  - scikit-learn
-  - seaborn
-  - shapely
-  - swifter
-  - tabulate
-  - pip:
-    - azure-storage-blob
-    - boto3
-    - placekey
+  - pandas
+  - requests
