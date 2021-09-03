@@ -1,4 +1,4 @@
-name: generate-infogrpahic
+name: generate-infographic
 
 channels:
   - esri
@@ -8,5 +8,7 @@ dependencies:
   - arcgis
   - jupyterlab
   - nodejs
+  - pip
   - pandas
+  - python-dotenv
   - requests
